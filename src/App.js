@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
@@ -12,7 +13,6 @@ import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import Profile from "./pages/Profile/Profile";
 import Movies from "./pages/Movies/Movies"
-import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
