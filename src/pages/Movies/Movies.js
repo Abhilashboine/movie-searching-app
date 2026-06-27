@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from "react";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
-import "./MovieDetail.css";
+import "./MovieDetails.css";
 
 const API_KEY = "a972d32c";
 
