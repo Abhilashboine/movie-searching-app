@@ -3,7 +3,7 @@ import axios from "axios";
 import {useParams,useNavigate} from "react-router-dom";
 import "./MovieDetail.css";
 
-const API_KEY="YOUR_API_KEY";
+const API_KEY="a972d32c";
 
 function MovieDetails(){
 
@@ -12,12 +12,6 @@ const {id}=useParams();
 const navigate=useNavigate();
 
 const [movie,setMovie]=useState(null);
-
-useEffect(()=>{
-
-getMovie();
-
-},[]);
 
 const getMovie=async()=>{
 
@@ -40,6 +34,13 @@ console.log(error);
 }
 
 };
+
+useEffect(()=>{
+
+getMovie();
+
+},[id]);
+
 
 if(!movie){
 

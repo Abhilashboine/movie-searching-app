@@ -12,7 +12,7 @@ import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import Profile from "./pages/Profile/Profile";
 import Movies from "./pages/Movies/Movies"
-
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -57,7 +57,7 @@ function App() {
 position="top-right"
 autoClose={2000}
 />
-{/* <Footer /> */}
+<Footer /> 
     </BrowserRouter>
   );
 }
