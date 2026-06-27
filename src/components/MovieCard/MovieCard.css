@@ -1,0 +1,99 @@
+.movie-card{
+
+    background:#1f2937;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+
+}
+
+.movie-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.5);
+
+}
+
+.movie-card img{
+
+    width:100%;
+
+    height:380px;
+
+    object-fit:cover;
+
+}
+
+.movie-info{
+
+    padding:15px;
+
+    color:white;
+
+}
+
+.movie-info h3{
+
+    margin-bottom:10px;
+
+}
+
+.card-buttons{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:15px;
+
+}
+
+.favorite-btn{
+
+    background:#ef4444;
+
+    color:white;
+
+    border:none;
+
+    padding:10px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.details-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:10px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.favorite-btn:hover{
+
+    background:#dc2626;
+
+}
+
+.details-btn:hover{
+
+    background:#1d4ed8;
+
+}

@@ -1,0 +1,45 @@
+.footer{
+    background:#111827;
+    color:white;
+    margin-top:50px;
+    padding:40px 20px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.footer-logo,
+.footer-links,
+.footer-contact{
+    margin:20px;
+}
+
+.footer h2{
+    color:#f59e0b;
+}
+
+.footer h3{
+    margin-bottom:15px;
+}
+
+.footer-links a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    margin:8px 0;
+}
+
+.footer-links a:hover{
+    color:#f59e0b;
+}
+
+hr{
+    margin:25px 0;
+}
+
+.copyright{
+    text-align:center;
+}

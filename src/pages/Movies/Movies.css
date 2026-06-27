@@ -1,0 +1,19 @@
+.movies-page{
+
+    min-height:100vh;
+
+    background:#0f172a;
+
+    color:white;
+
+}
+
+.movies-page h1{
+
+    text-align:center;
+
+    padding:30px;
+
+    font-size:45px;
+
+}

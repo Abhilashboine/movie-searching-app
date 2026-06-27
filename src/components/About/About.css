@@ -1,0 +1,33 @@
+.about{
+
+padding:70px 20px;
+
+text-align:center;
+
+background:#111827;
+
+color:white;
+
+}
+
+.about h2{
+
+font-size:40px;
+
+margin-bottom:20px;
+
+color:#e50914;
+
+}
+
+.about p{
+
+width:70%;
+
+margin:auto;
+
+font-size:20px;
+
+line-height:35px;
+
+}
